@@ -1,0 +1,27 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background: lightblue;
+}
+h1 {
+    font-weight: 700;
+}
+
+/* images layout */
+.images {
+    margin: 0 5em;
+}
+
+.thumbnail {
+    margin: 2em;
+    position: relative;
+}

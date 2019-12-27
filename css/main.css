@@ -3,7 +3,7 @@ body {
 }
 
 main {
-    margin: auto;
+    margin: auto 3em;
     text-align: center;
 }
 
@@ -16,12 +16,30 @@ h1 {
     font-weight: 700;
 }
 
-/* images layout */
-.images {
-    margin: 0 5em;
+/* search box  */
+.search-box {
+    width: 50%;
 }
 
+/* images layout */
+.images {
+    margin: auto;
+}
 .thumbnail {
-    margin: 2em;
-    position: relative;
+    margin: 1.5em;
+}
+
+/* media query */
+@media (min-width: 1024px) {
+    .images {
+        max-width: 1200px;
+    }
+    .search-box {
+        max-width: 30%;
+    }
+}
+
+/* lightbox */
+.lb-data .lb-details {
+    text-align: center;
 }

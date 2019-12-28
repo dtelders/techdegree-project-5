@@ -17,12 +17,12 @@
         <h1>Photo Gallery</h1>
     </header>
     <main>
-        <p class="blah">This is my photo gallery. Feel free to browse the images, or use the search box to find specific
+        <p>This is my photo gallery. Feel free to browse the images, or use the search box to find specific
             photos.</p>
 
-        <input class="search-box" type="text" placeholder=" Search here">
+        <input class="search-box" type="text" id="search" name="search" data-list=".list" placeholder=" Search here">
 
-        <div class="images">
+        <div class="images list">
             <a href="images/01.jpg" data-lightbox='images'
                 data-title='I love hay bales. Took this snap on a drive through the countryside past some straw fields.'>
                 <img class="thumbnail" src="images/thumbnails/01.jpg" alt="image of hay bales"></a>
@@ -76,6 +76,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="js/lightbox2/js/lightbox.min.js"></script>
+    <script src="js/hideseek/jquery.hideseek.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

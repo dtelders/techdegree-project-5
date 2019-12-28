@@ -24,6 +24,7 @@ h1 {
 /* images layout */
 .images {
     margin: auto;
+    max-width: 1200px;
 }
 .thumbnail {
     margin: 1.5em;
@@ -31,9 +32,6 @@ h1 {
 
 /* media query */
 @media (min-width: 1024px) {
-    .images {
-        max-width: 1200px;
-    }
     .search-box {
         max-width: 30%;
     }
